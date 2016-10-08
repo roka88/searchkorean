@@ -28,7 +28,7 @@ dependencies {
 Example에 나와있음
 
 #Example
-<pre><xmp>
+<pre>
 public class Main {
 
     public static void main(String[] args) {
@@ -45,7 +45,7 @@ public class Main {
         System.out.println("유효성 검사 text : "+"라라라"+ " / 체크 text : "+"이수영의 라라라 ~_~"+" / 결과 : "+rokaSearchKorean.speedHangleCheck("라라라", "이수영의 라라라 ~_~"));
 
 
-        ArrayList<String> list = new ArrayList<>();
+	ArrayList<xmp><String></xmp> list = new ArrayList<>();
         list.add("강남");
         list.add("나는야 Roka");
         list.add("한국 종합 센터");
@@ -81,11 +81,11 @@ public class Main {
         }
     }
 }
-</xmp></pre>
+</pre>
 
 
 #Result
-<pre><xmp>
+<pre>
 유효성 검사 text : ㄱㄴ / 체크 text : 강남 / 결과 : true
 유효성 검사 text : ㄱㄴ서울 / 체크 text : 강남서울 / 결과 : true
 유효성 검사 text : ㅂㅅㄷ / 체크 text : 부산대 / 결과 : true
@@ -115,7 +115,8 @@ public class Main {
 
 찾을 문자를 작성해주세요. : 아침
 쎼쎼쎼~ 아침바람 찬 바람에
-</xmp></pre>
+</pre>
+
 
 #License
 
